@@ -11,11 +11,11 @@
 - [Phone Number](#phone-number)
 - [Domain Name](#domain-name)
 - [IP](#ip)
-- [Account verification](#account-verif)
-- [Character verification](#characters-verif)
+- [Account verification](#account-verification)
+- [Character verification](#characters-verification)
   - [Chinese characters](#chinese-characters)
   - [English characters and numbers](#English-characters-and-numbers)
-  - [All characters from 3 to 20 in length](#all*characters-from-3-to-20-in-length)
+  - [All characters from 3 to 20 in length](#all-characters-from-3-to-20-in-length)
   - [English characters](#english-characters)
     - [由26个英文字母组成的字符串](#由26个英文字母组成的字符串)
     - [由26个大写英文字母组成的字符串](#由26个大写英文字母组成的字符串)
@@ -124,7 +124,7 @@
 
 ![char](images/char1.png)
 
-### 长度为3-20的所有字符
+### All characters from 3 to 20 in length
 
 ```regex
 ^.{3,20}$
@@ -132,7 +132,7 @@
 
 ![char](images/char2.png)
 
-### 英文字符
+### English characters
 
 #### 由26个英文字母组成的字符串
 
