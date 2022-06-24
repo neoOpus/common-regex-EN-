@@ -17,8 +17,8 @@
   - [English characters and numbers](#English-characters-and-numbers)
   - [All characters from 3 to 20 in length](#all-characters-from-3-to-20-in-length)
   - [English characters](#english-characters)
-    - [由26个英文字母组成的字符串](#A string consisting of 26 uppercase letters)
-    - [由26个大写英文字母组成的字符串](#由26个大写英文字母组成的字符串)
+    - [String consisting of 26 letters of the alphabet](#String consisting of 26 letters of the alphabet)
+    - [String consisting of 26 uppercase letters](#string consisting of 26 uppercase letters)
     - [由26个小写英文字母组成的字符串](#由26个小写英文字母组成的字符串)
     - [由数字和26个英文字母组成的字符串](#由数字和26个英文字母组成的字符串)
     - [由数字、26个英文字母或者下划线组成的字符串](#由数字26个英文字母或者下划线组成的字符串)
@@ -40,7 +40,7 @@
 
 ## E-mail
 
-`gaozihang-001@gmail.com` 只允许英文字母、数字、下划线、英文句号、以及中划线组成
+`gaozihang-001@gmail.com` Only letters, numbers, underscores, periods, and underscores are allowed
 
 ```regex
 ^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$
@@ -48,7 +48,7 @@
 
 ![email](images/email.png)
 
-`高子航001Abc@bowbee.com.cn` 名称允许汉字、字母、数字，域名只允许英文域名
+`高子航001Abc@bowbee.com.cn` The name allows Chinese characters, letters and numbers, and the domain name only allows English domain names
 
 ```regex
 ^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$
@@ -58,7 +58,7 @@
 
 ## Phone Number
 
-`13012345678` 手机号
+`13012345678` mobile phone number
 
 ```regex
 ^1(3|4|5|6|7|8|9)\d{9}$
@@ -66,7 +66,7 @@
 
 ![phone](images/phone.png)
 
-`XXX-XXXXXXX` `XXXX-XXXXXXXX` 固定电话
+`XXX-XXXXXXX` `XXXX-XXXXXXXX` landline phone number
 
 ```regex
 (\(\d{3,4}\)|\d{3,4}-|\s)?\d{8}
@@ -96,7 +96,7 @@
 
 ## Account verification
 
-`gaozihang_001` 字母开头，允许5-16字节，允许字母数字下划线
+`gaozihang_001` Start with a letter, allow 5-16 bytes, allow alphanumeric underscore
 
 ```regex
 ^[a-zA-Z][a-zA-Z0-9_]{4,15}$
@@ -134,7 +134,7 @@
 
 ### English characters
 
-#### 由26个英文字母组成的字符串
+#### String consisting of 26 letters of the alphabet
 
 ```regex
 ^[A-Za-z]+$
