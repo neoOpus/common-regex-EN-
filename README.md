@@ -17,7 +17,7 @@
   - [English characters and numbers](#English-characters-and-numbers)
   - [All characters from 3 to 20 in length](#all-characters-from-3-to-20-in-length)
   - [English characters](#english-characters)
-    - [由26个英文字母组成的字符串](#由26个英文字母组成的字符串)
+    - [由26个英文字母组成的字符串](#A string consisting of 26 uppercase letters)
     - [由26个大写英文字母组成的字符串](#由26个大写英文字母组成的字符串)
     - [由26个小写英文字母组成的字符串](#由26个小写英文字母组成的字符串)
     - [由数字和26个英文字母组成的字符串](#由数字和26个英文字母组成的字符串)
@@ -56,7 +56,7 @@
 
 ![email](images/email2.png)
 
-## Phone-Number
+## Phone Number
 
 `13012345678` 手机号
 
@@ -74,7 +74,7 @@
 
 ![email](images/phone2.png)
 
-## Domaine-Name
+## Domaine Name
 
 `https://google.com/`
 
@@ -94,7 +94,7 @@
 
 ![ip](images/ip.png)
 
-## Account-Verification
+## Account verification
 
 `gaozihang_001` 字母开头，允许5-16字节，允许字母数字下划线
 
@@ -104,9 +104,9 @@
 
 ![user](images/userid.png)
 
-## Character-Verification
+## Character verification
 
-### Chinese-Characters
+### Chinese characters
 
 `高子航`
 
@@ -116,7 +116,7 @@
 
 ![chinese](images/chineses.png)
 
-### English-Characters-and-Numbers
+### English characters and numbers
 
 ```regex
 ^[A-Za-z0-9]+$
@@ -142,7 +142,7 @@
 
 ![char](images/char3.png)
 
-#### 由26个大写英文字母组成的字符串
+#### A string consisting of 26 uppercase letters
 
 ```regex
 ^[A-Z]+$
