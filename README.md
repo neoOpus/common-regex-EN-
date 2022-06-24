@@ -5,18 +5,18 @@
   <img src="https://jaywcjlove.github.io/sb/lang/chinese.svg">
 </div>
 
-## 目录
+## Table of contents
 
-- [邮箱](#邮箱)
-- [电话](#电话)
-- [域名](#域名)
+- [E-mail](#e-mail)
+- [Phone Number](#phone-number)
+- [Domain Name](#domain-name)
 - [IP](#ip)
-- [帐号校验](#帐号校验)
-- [字符校验](#字符校验)
-  - [汉字](#汉字)
-  - [英文和数字](#英文和数字)
-  - [长度为3-20的所有字符](#长度为3-20的所有字符)
-  - [英文字符](#由英文字符)
+- [Account verification](#account-verif)
+- [Character verification](#characters-verif)
+  - [Chinese characters](#chinese-characters)
+  - [English characters and numbers](#English-characters-and-numbers)
+  - [All characters from 3 to 20 in length](#all*characters-from-3-to-20-in-length)
+  - [English characters](#english-characters)
     - [由26个英文字母组成的字符串](#由26个英文字母组成的字符串)
     - [由26个大写英文字母组成的字符串](#由26个大写英文字母组成的字符串)
     - [由26个小写英文字母组成的字符串](#由26个小写英文字母组成的字符串)
@@ -38,7 +38,7 @@
     - [非负浮点数](#非负浮点数)
     - [非正浮点数](#非正浮点数)
 
-## 邮箱
+## E-mail
 
 `gaozihang-001@gmail.com` 只允许英文字母、数字、下划线、英文句号、以及中划线组成
 
@@ -56,7 +56,7 @@
 
 ![email](images/email2.png)
 
-## 电话
+## Phone-Number
 
 `13012345678` 手机号
 
@@ -74,7 +74,7 @@
 
 ![email](images/phone2.png)
 
-## 域名
+## Domaine-Name
 
 `https://google.com/`
 
@@ -94,7 +94,7 @@
 
 ![ip](images/ip.png)
 
-## 帐号校验
+## Account-Verification
 
 `gaozihang_001` 字母开头，允许5-16字节，允许字母数字下划线
 
@@ -104,9 +104,9 @@
 
 ![user](images/userid.png)
 
-## 字符校验
+## Character-Verification
 
-### 汉字
+### Chinese-Characters
 
 `高子航`
 
@@ -116,7 +116,7 @@
 
 ![chinese](images/chineses.png)
 
-### 英文和数字
+### English-Characters-and-Numbers
 
 ```regex
 ^[A-Za-z0-9]+$
