@@ -19,7 +19,7 @@
   - [English characters](#english-characters)
     - [String consisting of 26 letters of the alphabet](#string-consisting-of-26-letters-of-the-alphabet)
     - [String consisting of 26 uppercase letters](#string-consisting-of-26-uppercase-letters)
-    - [由26个小写英文字母组成的字符串](#由26个小写英文字母组成的字符串)
+    - [String consisting of 26 lowercase letters](#string-consisting-of-26-lowercase-letters)
     - [由数字和26个英文字母组成的字符串](#由数字和26个英文字母组成的字符串)
     - [由数字、26个英文字母或者下划线组成的字符串](#由数字26个英文字母或者下划线组成的字符串)
   - [中文、英文、数字包括下划线](#中文英文数字包括下划线)
@@ -142,7 +142,7 @@
 
 ![char](images/char3.png)
 
-#### A string consisting of 26 uppercase letters
+#### String consisting of 26 uppercase letters
 
 ```regex
 ^[A-Z]+$
@@ -150,7 +150,7 @@
 
 ![char](images/char4.png)
 
-#### 由26个小写英文字母组成的字符串
+#### String consisting of 26 uppercase letters
 
 ```regex
 ^[a-z]+$
